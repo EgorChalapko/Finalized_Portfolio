@@ -1,0 +1,21 @@
+baseURL = 'http://example.org/'
+languageCode = 'ru'
+theme = 'terminal'
+title = 'Портфолио Чалапко Егора'
+
+[params]
+  themeColor = "green"
+  fullWidthTheme = true
+[menu]
+[[menu.main]]
+  name = '/Об Авторе'
+  pageRef = '/Об_Авторе.md'
+  weight = 10
+[[menu.main]]
+  name = '/Портфолио'
+  pageRef = '/choosen.md'
+  weight = 20
+[[menu.main]]
+  name = '/Архив работ'
+  pageRef = '/portf/'
+  weight = 30
